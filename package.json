@@ -1,0 +1,30 @@
+{
+  "name": "express-api",
+  "version": "0.0.0",
+  "description": "Example node api using Express.",
+  "main": "app.js",
+  "dependencies": {
+    "express": "^4.4.5",
+    "mongoose": "^3.8.12"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mragray/node-api.git"
+  },
+  "engines": {
+    "node": "0.10.x"
+  },
+  "keywords": [
+    "example",
+    "heroku",
+    "api"
+  ],
+  "author": "mragray",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mragray/node-api/issues"
+  }
+}
