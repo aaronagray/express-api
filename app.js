@@ -1,12 +1,14 @@
-var http     = require('http'),
-    express  = require('express'),
-    db       = require('./model'),
-    bodyParser = require('body-parser');
+var http        = require('http'),
+    express     = require('express'),
+    db          = require('./model'),
+    bodyParser  = require('body-parser'),
+    cors        = require('cors');
 
 var app = express();
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(express.static(__dirname));
+app.use(cors());
 
 app.route('/kittens').
 
